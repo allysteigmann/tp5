@@ -38,8 +38,8 @@ p.smaller {
   color: red;
 }
 
-div#TitleBanner {
-  font-size: 80px;
+div#titleBanner {
+  
   color: white;
   font-family: 'Francois One', sans-serif;
   font-size: 500%;
@@ -54,9 +54,17 @@ div#TitleBanner {
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.7);
 }
 
-#TitleBanner h1 {
-  position: center center;
+#titleBanner h1.tp {
+ font-size: 100%;
 }
+
+#titleBanner h1.black {
+  color: 000000;
+   text-shadow: 0px 8px 8px #ffffff;
+}
+
+
+
 
 * {
   background-color: #FFF8DC;
@@ -94,6 +102,11 @@ div#TitleBanner {
     line-height: 120%;
   }
   
+  
+  #rowsRecipe #ingredients ul,
+  #rowsRecipe #directions ol, 
+  #rowsRecipe #equipment ul 
+  {display: none;}
 
 @media screen and (orientation: portrait) and (max-width: 575px) {
   
