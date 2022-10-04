@@ -3,7 +3,7 @@
 
 window.onload = function() {
   
-  document.querySelector("titleBanner h1").classList.add("tp");
+  document.querySelector("#titleBanner h1").classList.add("tp");
   
   document.querySelector("#titleBanner h1").onclick = function() {  
     
