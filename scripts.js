@@ -12,18 +12,18 @@ window.onload = function() {
   
   document.querySelector("#rowsRecipe #ingredients").onclick = function() {
     
-    this.classList.toggle("tpShow")
+    this.classList.toggle("tpShow");
   }
   
   document.querySelector("#rowsRecipe #equipment").onclick = function() {
-    this.classList.toggle("tpShow")
+    this.classList.toggle("tpShow");
   }
   
   document.querySelector("#rowsRecipe #directions").onclick = function() {
-    this.classList.toggle("tpShow")
+    this.classList.toggle("tpShow");
   }
   
-  document.querySelector("#rowsRecipe #ingredients ul").innerHTML += "<li>People to share with</li>";
+  document.querySelector("#rowsRecipe #ingredients").innerHTML += "<li>People to share with</li>";
   
   
 } //end window.onload

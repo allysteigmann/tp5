@@ -55,7 +55,9 @@ div#titleBanner {
 }
 
 #titleBanner h1.tp {
- font-size: 100%;
+ font-size: 80%;
+  background: none;
+
 }
 
 #titleBanner h1.black {
@@ -86,6 +88,8 @@ div#titleBanner {
 #rowsRecipe div#equipment { flex-basis: 50%; }
 #rowsRecipe div#directions { flex-basis: 50%; }
 
+
+
 @media screen and (orientation: portrait) {
 
  
@@ -107,6 +111,11 @@ div#titleBanner {
   #rowsRecipe #directions ol, 
   #rowsRecipe #equipment ul 
   {display: none;}
+  
+  #rowsRecipe #ingredients.tpShow ul,
+  #rowsRecipe #directions.tpShow ol, 
+  #rowsRecipe #equipment.tpShow ul 
+  {display: block;}
 
 @media screen and (orientation: portrait) and (max-width: 575px) {
   
