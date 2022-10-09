@@ -110,12 +110,16 @@ div#titleBanner {
   #rowsRecipe #ingredients ul,
   #rowsRecipe #directions ol, 
   #rowsRecipe #equipment ul 
-  {display: none;}
+  {
+    display: none;
+  }
   
-  #rowsRecipe #ingredients.tpShow ul,
-  #rowsRecipe #directions.tpShow ol, 
-  #rowsRecipe #equipment.tpShow ul 
-  {display: block;}
+  #rowsRecipe #ingredients.show ul,
+  #rowsRecipe #directions.show ol, 
+  #rowsRecipe #equipment.show ul 
+  {
+    display: block;
+  }
 
 @media screen and (orientation: portrait) and (max-width: 575px) {
   

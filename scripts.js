@@ -12,15 +12,15 @@ window.onload = function() {
   
   document.querySelector("#rowsRecipe #ingredients").onclick = function() {
     
-    this.classList.toggle("tpShow");
+    this.classList.toggle("show");
   }
   
   document.querySelector("#rowsRecipe #equipment").onclick = function() {
-    this.classList.toggle("tpShow");
+    this.classList.toggle("show");
   }
   
   document.querySelector("#rowsRecipe #directions").onclick = function() {
-    this.classList.toggle("tpShow");
+    this.classList.toggle("show");
   }
   
   document.querySelector("#rowsRecipe #ingredients").innerHTML += "<li>People to share with</li>";
