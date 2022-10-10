@@ -10,20 +10,20 @@ window.onload = function() {
     this.classList.toggle("black");
   }
   
-  document.querySelector("#rowsRecipe #ingredients").onclick = function() {
+  document.querySelector("#recipeColumns #ingredients").onclick = function() {
     
     this.classList.toggle("show");
   }
   
-  document.querySelector("#rowsRecipe #equipment").onclick = function() {
+  document.querySelector("#recipeColumns #equipment").onclick = function() {
     this.classList.toggle("show");
   }
   
-  document.querySelector("#rowsRecipe #directions").onclick = function() {
+  document.querySelector("#recipeColumns #directions").onclick = function() {
     this.classList.toggle("show");
   }
   
-  document.querySelector("#rowsRecipe #ingredients").innerHTML += "<li>People to share with</li>";
+  document.querySelector("#recipeColumns #ingredients").innerHTML += "<li>People to share with</li>";
   
   
 } //end window.onload

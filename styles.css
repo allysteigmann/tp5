@@ -61,11 +61,9 @@ div#titleBanner {
 }
 
 #titleBanner h1.black {
-  color: 000000;
+  color: #000000;
    text-shadow: 0px 8px 8px #ffffff;
 }
-
-
 
 
 * {
@@ -73,7 +71,7 @@ div#titleBanner {
   position: static;
 }
 
-#rowsRecipe {
+#recipeColumns {
   padding: 2vh;
   display: flex;
   justify-content: space-between;
@@ -84,39 +82,31 @@ div#titleBanner {
 
 #ingredients h4 {font-weight: bold;}
 
-#rowsRecipe div#ingredients { flex-basis: 50%; }
-#rowsRecipe div#equipment { flex-basis: 50%; }
-#rowsRecipe div#directions { flex-basis: 50%; }
+#recipeColumns div#ingredients { flex-basis: 50%; }
+#recipeColumns div#equipment { flex-basis: 50%; }
+#recipeColumns div#directions { flex-basis: 50%; }
 
 
 
 @media screen and (orientation: portrait) {
 
  
-  #rowsRecipe {
+  #recipeColumns {
     padding: 1vh 2vh 2vh 2vh;
     display: block;
   }
   
- 
-  #rowsRecipe div {
-    position: relative;
-    margin: 5vh 0 5vh 0;
-    font-size: 120%;
-    line-height: 120%;
-  }
-  
-  
-  #rowsRecipe #ingredients ul,
-  #rowsRecipe #directions ol, 
-  #rowsRecipe #equipment ul 
+/*columns (supposed to) disappear at first*/  
+  #recipeColumns #ingredients ul,
+  #recipeColumns #directions ol, 
+  #recipeColumns #equipment ul 
   {
     display: none;
   }
   
-  #rowsRecipe #ingredients.show ul,
-  #rowsRecipe #directions.show ol, 
-  #rowsRecipe #equipment.show ul 
+  #recipeColumns #ingredients.show ul,
+  #recipeColumns #directions.show ol, 
+  #recipeColumns #equipment.show ul 
   {
     display: block;
   }
